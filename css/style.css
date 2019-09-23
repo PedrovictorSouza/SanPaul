@@ -15,6 +15,7 @@ h1 {
 
 h2 {
     font-weight: 200;
+    font-size: 4vw;
 }
 
 h3,
@@ -25,7 +26,7 @@ h2 {
 
 h3 {
     margin-bottom: 0px;
-    font-size: 2em;
+    font-size: 6vw;
 }
 
 hr {
@@ -177,7 +178,7 @@ nav div:nth-child(2) {
 
 .insta p {
     color: white;
-    font-size: 16px;
+    font-size: 3vw;
 }
 
 .accordion img:nth-child(1) {
