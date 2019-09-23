@@ -1,0 +1,73 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.accordion {
+    background-color: #eee0;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.accordion:hover {
+    background-color: #616060;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    background-color: black;
+    display: none;
+    overflow: hidden;
+}
+
+.panel p {
+    padding: 2em;
+    color: white;
+}
+
+.accordion h3 {
+    margin-left: 24px;
+}
+
+.arrow {
+    width: 10vw;
+}
+
+.back {
+    color: white;
+    font-size: 1.5em;
+    width: 22vw;
+    height: 8vh;
+    /* background-position: center; */
+    background: url(../imgs/back.svg);
+    /* background: blue; */
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-left: 2vw
+}
+
+.accordion p {
+    font-size: 1.4em;
+    margin-left: 4.5vw;
+    color: white;
+    margin-bottom: 5px;
+}

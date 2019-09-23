@@ -1,0 +1,50 @@
+#menu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background: #dadada;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    margin-top: 0px;
+    width: calc(100% - 2em);
+    padding: 1em;
+    z-index: 1001;
+}
+
+#menu img {
+    width: 10vw;
+    margin-top: 6vh;
+    cursor: pointer;
+}
+
+#home {
+    background: url(../imgs/bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-b {
+    background: url(../imgs/bg-b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+
+#banner {
+    align-items: center;
+    justify-content: center;
+    background: #00000096;
+}
+
+#side-text {
+    color: white;
+    position: absolute;
+    top: 48%;
+    transform: rotate(-90deg);
+    left: -8vw;
+    font-size: 16px;
+}
