@@ -5,16 +5,16 @@
     background: #dadada;
     width: 100vw;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100vh;
     margin-top: 0px;
-    width: calc(100% - 2em);
+    width: 30vw;
     padding: 1em;
-    z-index: 1001;
+    z-index: 1003;
 }
 
 #menu img {
-    width: 10vw;
+    width: 40px;
     margin-top: 6vh;
     cursor: pointer;
 }
@@ -24,6 +24,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    padding: 1vw;
+    box-sizing: border-box;
 }
 
 #home-b {
@@ -31,21 +37,40 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: fit-content;
+    height: 100vh;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+
+#back-frame {
+    position: absolute;
+    opacity: 0.6;
+    right: 0;
 }
 
 #banner {
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background: #00000096;
+    width: 94vw;
+    height: 30vh;
+}
+
+#banner div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+#banner img {
+    border-radius: 50%;
 }
 
 #side-text {
     color: white;
     position: absolute;
-    top: 48%;
+    top: 36%;
     transform: rotate(-90deg);
-    left: -12vw;
+    left: -2.6vw;
     font-size: 16px;
     margin: 0px;
 }

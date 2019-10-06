@@ -16,6 +16,12 @@
     height: 16vh;
     display: flex;
     align-items: center;
+    width: 30vw;
+}
+
+.accordion-container {
+    overflow: scroll;
+    height: 65vh;
 }
 
 
@@ -45,7 +51,7 @@
 }
 
 .arrow {
-    width: 10vw;
+    width: 38px;
 }
 
 .back {
@@ -62,7 +68,6 @@
     text-align: right;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    margin-left: 2vw
 }
 
 .accordion p {
